@@ -1,7 +1,7 @@
 //Pedimos los dos numero y la operación al Usuario.
-let n1 = Number(prompt("Introduce el primer Número: "));
-let n2 = Number(prompt("Introduce el Segundo Número: "));
-let operacion = prompt("Introduce La operacion (suma, resta, multiplicación, división): ");
+var n1 = NaN(prompt("Introduce el primer Número: "));
+var n2 = NaN(prompt("Introduce el Segundo Número: "));
+var operacion = prompt("Introduce La operacion (suma, resta, multiplicación, división): ");
 
 //Realizamos la operacion correspondiente.
 let resultado;
