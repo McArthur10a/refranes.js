@@ -32,10 +32,10 @@ if (indicePalabra < 0)
 refran = refran.replace("que", "xxx");
 console.log("refran (reemplazo):                " + refran);
 
-//volver la cadena
+//👉volver la cadena
 refran = refran.replace("xxx", "que");
 console.log("volver palabra ('que')-refran:     " + refran);
 
-// Conversión a mayúsculas todos los caracteres del refrán
+// 👉Conversión a mayúsculas todos los caracteres del refrán
 refran = refran.toUpperCase();
 console.log("Refran en Mayuscula:               " + refran);
